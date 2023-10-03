@@ -15,11 +15,11 @@ install_pip:
 	echo "dtreeviz" >> requirements.txt
 	echo "matplotlib" >> requirements.txt
 	echo "dtale" >> requirements.txt
-	echo "ydata_profiling" >> requirements.txty
-	echo "dvc" >> requirements.txty
-	echo "mlflow" >> requirements.txty
-	pip install -r requirements.txt"
+	echo "ydata_profiling" >> requirements.txt
+	echo "dvc" >> requirements.txt
+	echo "mlflow" >> requirements.txt
+	pip install -r requirements.txt
 
 install_conda:
 	@echo "Instalando vía conda"
-	conda env create -f conf/conda.yml
+	conda env create -f conda.yml

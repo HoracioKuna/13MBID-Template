@@ -52,11 +52,13 @@ Esquema de pasos a seguir:
 7. Finalmente, una forma de realizar una recuperación de una versión en particular de un archivo ante un cambio no deseado podría ser:
 
     ~~~ bash
-    git checkout [nombre_archivo]
+    git checkout [version][nombre_archivo]
     dvc checkout
     ~~~
 
 >[!WARNING]
 > dvc opera en forma conjunta con git a través de los archivos .dvc que tienen nombres idénticos a los archivos de datos, los cambios que se desee deshacer deberán ser recuperados también desde el repositorio que gestiona git.
+
+La opción [version] suele ser "HEAD~1" para indicar la versión inmediatamente anterior del archivo que haya sido confirmada en el repositorio.
 
 Con eso se tendrá un versionado básico de los archivos de datos del proyecto.
