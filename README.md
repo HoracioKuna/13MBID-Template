@@ -21,7 +21,3 @@ Carpetas:
 * notebooks: espacio para almacenar las libretas de experimentación del proyecto.
 * docs: directorio para almacenar los reportes generados a partir del trabajo y otra información de interés.
 * examples: ubicación que contiene ejemplos para el uso de este template.
-
-Archivos:
-
-* Makefile: archivo con comandos básicos para algunas operaciones que podrían ser ejecutadas para agilizar algún paso.
