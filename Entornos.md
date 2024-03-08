@@ -4,7 +4,18 @@
 
 Una vez clonado en forma local el repositorio template de la asignatura, se podrá optar por alguna de estas tres opciones para generar el entorno de librerías a utilizar:
 
-1. En sistemas Linux/Unix utilizar el archivo Makefile y sus comandos como asistente.
+1. En sistemas Linux/Unix utilizar el archivo Makefile y sus comandos como asistente. Y posteriormente realizar la instalación vía un comando de pip. Por ejemplo:
+    ~~~ bash
+    make [comando]
+    ...
+    python -m pip install -r config/requirements.txt
+    ~~~
+
 2. Utilizar las operaciones integradas que ofrece el IDE, Visual Studio Code en este caso, para manejar entornos virtuales de Python.
-3. Utilizar conda o miniconda para reproducir el entorno en base a los archivos incluidos en el repositorio.
+
+3. Utilizar conda o miniconda para reproducir el entorno en base a los archivos incluidos en el repositorio. Por ejemplo:
+    ~~~ bash
+    conda env create --name OCT2324 --file config/conda-linux.yaml
+    conda activate OCT2324    
+    ~~~
 
