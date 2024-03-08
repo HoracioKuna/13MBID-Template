@@ -1,4 +1,4 @@
-name: data
+name: OCT2324
 channels:
   - conda-forge
   - defaults
