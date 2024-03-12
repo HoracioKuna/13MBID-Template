@@ -13,7 +13,7 @@ Dictado: OCT23-24
 
 Carpetas:
 
-* config: contiene los archivos de configuración del entorno a replicar vía miniconda/conda o pip.
+* config: contiene los archivos de configuración del [entorno](Entornos.md) a replicar vía miniconda/conda o pip.
 * data: directorio para almacenar los datos del proyecto, tiene una subdivisión según la instancia de cada archivo:
   * raw: contiene datos en su estado original tal como fueran recibidos para el proyecto.
   * processed: contiene archivos que pudieran haber sido modificados como parte de las tareas de preprocesamiento. Sin embargo, se trata de instancias intermedias y no utilizables para entrenamiento de modelos.
