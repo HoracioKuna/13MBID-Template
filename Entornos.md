@@ -31,3 +31,12 @@ Una vez clonado en forma local el repositorio template de la asignatura, se podr
     conda activate OCT2324    
     ~~~
 
+## Opción nueva (OCT2024-25) utilización de UV
+
+Se dispone de un nuevo gestor de paquetes y dependencias para Python denominado "uv" ([Documentación](https://docs.astral.sh/uv/getting-started/installation/)). Es una herramienta disponible tanto para Windows como para Linux y MacOS.
+
+Se incluye en el repositorio un archivo `uv.lock` para poder replicar el entorno con esta herramienta.
+El comando a ejecutar es:
+~~~ bash
+uv sync
+~~~
