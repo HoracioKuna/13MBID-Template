@@ -24,7 +24,14 @@ create_requirements:
 	echo "dvc" >> config/requirements.txt
 	echo "ydata_profiling" >> config/requirements.txt
 	echo "streamlit" >> config/requirements.txt
+	echo "streamlit-ace" >> config/requirements.txt
+	echo "pytest" >> config/requirements.txt
+	echo "pandera" >> config/requirements.txt
+	echo "great_expectations" >> config/requirements.txt
+	echo "fastapi" >> config/requirements.txt
+	echo "plotly" >> config/requirements.txt
 	@echo "Archivo generado en el directorio config."
+	@echo off
 
 clean:
 	@rm -rf .env
