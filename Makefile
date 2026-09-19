@@ -28,8 +28,8 @@ create_requirements:
 	echo "pytest" >> config/requirements.txt
 	echo "pytest-html" >> config/requirements.txt
 	echo "pandera" >> config/requirements.txt
-	echo "great_expectations" >> config/requirements.txt
-	echo "fastapi" >> config/requirements.txt
+	echo "python-dotenv" >> config/requirements.txt
+	echo "fastapi[standard]" >> config/requirements.txt
 	echo "uvicorn" >> config/requirements.txt
 	echo "plotly" >> config/requirements.txt
 	@echo "Archivo generado en el directorio config."

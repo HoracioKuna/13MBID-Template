@@ -1,12 +1,12 @@
 [project]
 name = "Template_13MBID"
-version = "0.1.0"
+version = "0.1.1"
 description = "Repositorio template para el desarrollo de la práctica. Asignatura 13MBID."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dvc>=3.59.1",
-    "fastapi>=0.118.0",
+    "fastapi[standard]>=0.118.0",
     "great-expectations>=0.18.8",
     "jupyter>=1.1.1",
     "mlflow>=2.20.3",
@@ -17,9 +17,15 @@ dependencies = [
     "plotly>=6.3.0",
     "pytest>=8.4.2",
     "pytest-html>=4.2.0",
+    "python-dotenv>=1.2.3",
     "scikit-learn>=1.6.1",
     "streamlit>=1.43.0",
     "streamlit-ace>=0.1.1",
     "uvicorn>=0.41.0",
     "ydata-profiling>=4.13.0",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.2",
 ]

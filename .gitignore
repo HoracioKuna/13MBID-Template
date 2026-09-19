@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 mlruns
+.vscode
+.ruff_cache
