@@ -3,7 +3,7 @@
 En este documento se presenta una guía de uso de la librería **dvc** para realizar gestión de versiones de archivos de datos.
 
 >[!NOTE]
-> En la [documentación oficial(https://dvc.org/doc/start/data-management/data-versioning)] de la herramienta se encuentra una guía similar a esta.
+> En la [documentación oficial](https://dvc.org/doc/start/data-management/data-versioning) de la herramienta se encuentra una guía similar a esta.
 
 Esquema de pasos a seguir:
 
@@ -42,6 +42,9 @@ Esquema de pasos a seguir:
 
     >[!NOTE]
     >En caso de utilizar un directorio dentro del repositorio, el mismo deberá ser agregado al archivo .gitignore.
+
+    >[!NOTE]
+    >En este escenario vamos a utilizar DagsHub como remoto.
 
 6. Una vez configurado el enlace al almacenamiento remoto se podrá realizar la sincronización mediante el comando:
 
